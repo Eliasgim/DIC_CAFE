@@ -14,7 +14,7 @@ p, ul {
   margin: 0;
   padding: 0;
 }
-div,li {
+div, li {
   box-sizing: border-box;
 }
 .header_nav {
@@ -48,7 +48,7 @@ div,li {
   display: flex;
   align-items: center;
 }
-.logo img{
+.logo img {
   width: 100%;
 }
 .section_inner {
@@ -56,13 +56,13 @@ div,li {
 }
 .key {
   height: 500px;
-    background: center / cover no-repeat url(../imagenes/sample_key.jpg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-family: 'Noto Serif JP', serif;
+  background: center / cover no-repeat url(../imagenes/sample_key.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Noto Serif JP', serif;
 }
-.key h1{
+.key h1 {
   font-size: 2.5rem;
 }
 .section_title {
@@ -92,11 +92,9 @@ div,li {
   display: flex;
   justify-content: space-between;
 }
-div, li {
-  box-sizing: border-box;
-}
 .concept_content {
   width: 60%;
+<<<<<<< HEAD
 }
 p, ul {
   margin: 0;
@@ -107,6 +105,14 @@ p, ul {
 }
 img {
   border-style: none;
+=======
+  text-align: left;
+}
+.concept_image {
+  width: 35%;
+  float: right;
+  overflow: hidden;
+>>>>>>> e030c3ac8e7ef7b13c66671f44ae828a108212e3
 }
 .menu_list {
   display: flex;
@@ -162,10 +168,6 @@ img {
   width: 80%;
   padding: 10px;
 }
-.menu_item_title {
-  font-size: 18px;
-  font-family: 'Noto Serif JP', serif;
-}
 .seccion_de_menu {
   color: #000000;
   margin: 20px;
@@ -183,7 +185,7 @@ img {
   width: 100%;
   background: #251e19;
   position: absolute;
-  bottom: -75px;
+  bottom: 0;
   padding-bottom: 10px;
   height: 75px;
 }
@@ -212,6 +214,7 @@ img {
   width: 100%;
   height: 100%;
 }
+<<<<<<< HEAD
 .concept_inner {
   display: flex;
   justify-content: space-between;
@@ -222,3 +225,8 @@ img {
 .estoy_casado_jefe {
   width: 80px;
 }
+=======
+img {
+  border-style: none;
+}
+>>>>>>> e030c3ac8e7ef7b13c66671f44ae828a108212e3
